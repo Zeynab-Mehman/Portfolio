@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#first {
+  padding: 10px 20px;
+  background-color: gainsboro;
+}
+#first .portfolio {
+  width: 100%;
+  padding: 20px 0px;
+}
+#first .portfolio .portofolio-container {
+  margin: auto;
+  max-width: 100%;
+}
+#first .portfolio .portofolio-container .portfolio-content-total {
+  padding: 20px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 10px;
+}
+#first .portfolio .portofolio-container .portfolio-content-total .portfolio-content {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#first .portfolio .portofolio-container .portfolio-content-total .portfolio-content .portfolio-content-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#first .portfolio .portofolio-container .portfolio-content-total .portfolio-content .portfolio-content-up h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+}
+#first .portfolio .portofolio-container .portfolio-content-total .portfolio-content .portfolio-content-up .text-left p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+#first .portfolio .portofolio-container .portfolio-content-total .portfolio-content .portfolio-content-up .text-right p {
+  color: #828282;
+}
+#first .portfolio .portofolio-container .portfolio-content-total .portfolio-content .portfolio-content-down p {
+  color: #828282;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .portfolio .portofolio-container .portfolio-content-total {
+    flex-direction: column;
+  }
+  .portfolio .portofolio-container .portfolio-content-total .portfolio-content .portfolio-content-up {
+    flex-direction: column;
+  }
+}
+#second {
+  padding: 10px 20px;
+  background-color: gainsboro;
+}
+#second .second-container {
+  width: 100%;
+  padding: 20px 0px;
+  margin: auto;
+  max-width: 100%;
+}
+#second .second-container .second-total {
+  width: 100%;
+  padding: 20px 0px;
+  background: #ffffff;
+}
+#second .second-container .second-total .left-box {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+#second .second-container .second-total .left-box .left-box-up {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+#second .second-container .second-total .left-box .left-box-up .skill-list ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#second .second-container .second-total .left-box .left-box-up .skill-list ul li p {
+  width: 100px;
+  margin-right: 20px;
+}
+#second .second-container .second-total .left-box .left-box-up .skill-list ul li img {
+  width: 100px;
+}
+#second .second-container .second-total .left-box .left-box-below {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+#second .second-container .second-total .left-box .left-box-below .box img {
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+}/*# sourceMappingURL=main.css.map */
